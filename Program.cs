@@ -13,7 +13,6 @@ namespace OrderByAge
         {
             return $"{Name} with ID: {Id} is {Age} years old.";
         }
-
     }
 
     class Program
@@ -25,7 +24,7 @@ namespace OrderByAge
             while (true)
             {
                 string[] personData = Console.ReadLine()
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries);  // Read a line and make an string arr
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries);  // Read a line and make a string arr
 
                 string elementOne = personData[0];
 
